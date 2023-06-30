@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+#scenic-header {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
