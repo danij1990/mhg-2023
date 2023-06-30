@@ -18,3 +18,15 @@ body {
 }
 
 /* navigation */
+
+#join {
+    font-size: 25px;
+    color: #fafafa
+}
+
+#join>li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
