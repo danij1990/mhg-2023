@@ -2,8 +2,19 @@ body {
     background-color: black;
 }
 
+/* header and background image */
 #scenic-header {
     width: 100%;
     height: 300px;
     border: 0;
 }
+
+#mhg {
+    font-family: agdasima, Arial, Helvetica;
+    font-size: 80px;
+    color: #FFA500;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* navigation */
