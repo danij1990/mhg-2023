@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: agdasima, sans-serif;
+    color: white;
 }
 
 /* header and background image */
@@ -51,3 +52,27 @@ a:hover {
 }
 
 /* about us section */
+
+#man-hiking {
+    padding-bottom: 200px;
+}
+
+#flag {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 90%;
+    right: 70%;
+    border-radius: 50%;
+}
+
+.about-us {
+    position: relative;
+    padding: 120px
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 60px;
+
+}
