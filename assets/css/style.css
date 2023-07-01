@@ -97,16 +97,39 @@ a:hover {
     background-color: DodgerBlue;
     color: white;
     width: 100px;
-    margin: 10px;
+    margin: 5px;
     text-align: top;
     line-height: 75px;
     font-size: 20px;
-    padding: 100px;
+    padding: 140px;
+    flex-grow: 0;
 }
-.ulster{
-    background-image: url(../images/logo.jpg)
+
+.places {
+    color: orange;
+    font-size: 35px;
+    padding-left: 75px;
+    display: flex;
+    position: relative;
+    top: -250px;
 }
-.ben{
-    background-image:url(../images/ben-nevis.jpg);
+
+.ulster {
+    background-image: url(../images/logo.jpg);
+    background-size: cover;
+}
+
+.ben {
+    background-image: url(../images/ben-nevis.jpg);
+    background-size: cover;
+}
+
+.slieve {
+    background-image: url(../images/sleeve.jpg);
+    background-size: cover;
+}
+
+.croke {
+    background-image: url(../images/croke.jpg);
     background-size: cover;
 }
