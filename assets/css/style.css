@@ -186,3 +186,9 @@ a:hover {
     border-radius: 50%
 }
 
+/*gallery*/
+
+.gallery img {
+    width:20%;
+    height:15%;
+}
