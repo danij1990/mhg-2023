@@ -14,16 +14,18 @@ body {
 #scenic-header {
     width: 100%;
     height: 300px;
-    border: 0;
+    border: 0px;
+    margin-bottom: 0;
 }
 
 /* navigation */
 
 nav {
-    background-color: rgb(255, 166, 0);
+    background-color: orange;
     width: 100%;
     height: 70px;
     padding-top: 0;
+
 }
 
 #logo {
@@ -95,6 +97,7 @@ a:hover {
 }
 
 /* irelands peaks*/
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -188,22 +191,47 @@ a:hover {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    color:black;
-    
+    color: black;
+
 }
 
 /*gallery*/
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+
 }
+
+/*form css*/
+
+#join {
+    padding: 100px;
+    margin: 0;
+    width: 40%;
+    text-align: left;
+}
+
+#join div {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+
+}
+
+
+
+
+
+
 /*media Queries 1010*/
 @media screen and (max-width:1010px) {
     #story {
