@@ -181,19 +181,15 @@ a:hover {
 
 }
 
-.social-link {
-    color: #fff;
-    font-size: 30px;
-}
-
-.social-link i {
+.mhg-social i {
+    font-size: 300%;
     display: inline-block;
     width: 30px;
     height: 30px;
     line-height: 30px;
     text-align: center;
-    background-color: white;
-    border-radius: 50%
+    color:black;
+    
 }
 
 /*gallery*/
@@ -201,7 +197,7 @@ a:hover {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 0px;
+    grid-gap: 5px;
 }
 
 .gallery img {
