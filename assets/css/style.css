@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+
+}
 body {
     background-color: black;
     font-family: agdasima, sans-serif;
@@ -52,20 +57,25 @@ a:hover {
 }
 
 /* about us section */
+#man {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    border-radius: 50%;
+}
 
-#man-hiking {
+#story {
+   display: flex;
     padding-bottom: 200px;
 
 }
 
-#flag {
-    width: 300px;
-    height: 250px;
-    position: absolute;
-    top: 90%;
-    right: 70%;
-    border-radius: 50%;
+.mission {
+    padding-top: 200px;
 }
+
 
 .about-us {
     position: relative;
