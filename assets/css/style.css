@@ -7,8 +7,8 @@ body {
     background-color: black;
     font-family: agdasima, sans-serif;
     color: white;
-    
-    
+
+
 }
 
 /* header and background image */
@@ -64,33 +64,31 @@ a:hover {
 
 /* about us section */
 #man {
-    width: 200px;
-    height: 150px;
-    position: absolute;
-    top: 75%;
+    width: 20%;
+    height: auto;
     left: 10%;
     border-radius: 50%;
     border: 8px ridge orange;
-    position:top;
+    position: top;
 }
 
 #story {
     display: flex;
     padding-bottom: 200px;
- 
+
 }
 
 .mission {
     padding-top: 200px;
-    
+
 }
 
 
 .about-us {
     position: relative;
     padding: 125px;
-    
-    
+
+
 }
 
 .about-us h1 {
@@ -104,66 +102,83 @@ a:hover {
     padding: 100px;
 }
 
-/* irelands peaks*/
-
-.flex-container {
+/*palces to hike and there hights*/
+.heading-hikes{
+    color:orange;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-    top: -250px;
-   
+        justify-content: center;
+        font-size: 50px;
+            padding-bottom: 50px;
+      
 }
 
-.flex-container>div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 125px;
-    font-size: 0;
+#hikes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-bottom: 300px;
 
+}
+
+#hikes h2 {
+  color:orange;
+}
+
+td,
+th {
+    border: 1px solid orange;
+    /* Add a border to each cell */
+    padding: 8px;
+}
+
+th {
+    background-color: orange;
+    /* Set background color for table header cells */
+    font-weight: bold;
+}
+
+
+
+
+/* irelands peaks*/
+
+#travel-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.travel {
+    width: 20%;
+}
+
+.travel img {
+ width:90%;
+    height: 80%;
+        
 }
 
 .places {
     color: orange;
     font-size: 40px;
-        display: flex;
-            align-items: center;
-             text-align: center;
-            margin-bottom: 300px;
-              }
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
 .places h1 {
-border: 4px solid white;
+    border: 4px solid white;
     border-radius: 10px;
 }
 
-.ulster {
-    background-image: url(../images/logo.jpg);
-    background-size: cover;
-    border: 2px solid white;
-    border-radius: 10px;
 
-}
 
-.ben {
-    background-image: url(../images/ben-nevis.jpg);
-    background-size: cover;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 
-.slieve {
-    background-image: url(../images/sleeve.jpg);
-    background-size: cover;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-.croke {
-    background-image: url(../images/croke.jpg);
-    background-size: cover;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 
 /*footer*/
 
@@ -200,6 +215,8 @@ border: 4px solid white;
     color: black;
 
 }
+
+
 
 /*gallery*/
 
@@ -253,12 +270,12 @@ border: 4px solid white;
         display: none
     }
 
-  nav {
+    nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-      
-       
+
+
     }
 
     nav ul {
@@ -266,28 +283,38 @@ border: 4px solid white;
         flex-direction: column;
         align-items: center;
     }
-        nav li {
-            margin-bottom: 10px;
-         
-        }
-    
-        nav li a {
-            display: block;
+
+    nav li {
+        margin-bottom: 10px;
+
+    }
+
+    nav li a {
+        display: block;
+
+    }
+
+        #hikes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             
+    
         }
 
- 
 
- .flex-container {
+
+    #travel-flex-container {
         display: flex;
         flex-direction: column;
+
+    }
     
-         }
- 
+
     .gallery img {
         display: flex;
         flex-direction: column;
     }
 
 }
-
