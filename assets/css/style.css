@@ -71,6 +71,7 @@ a:hover {
     left: 10%;
     border-radius: 50%;
     border: 8px ridge orange;
+    position:top;
 }
 
 #story {
